@@ -1,0 +1,51 @@
+{
+  "name": "gientech",
+  "version": "1.0.0",
+  "description": "中电金信通用框架管理系统",
+  "author": "白剑民, 王强",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --mode development",
+    "pro": "vite --mode production",
+    "build:dev": "vite build --mode development",
+    "build:prod": "vite build --mode production",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/634626d8b765641dc6177700/gientech-iot-web/gientech-iot-web.git"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.0.10",
+    "@vueup/vue-quill": "1.1.0",
+    "@vueuse/core": "9.5.0",
+    "axios": "0.27.2",
+    "echarts": "5.4.0",
+    "element-plus": "2.2.27",
+    "file-saver": "2.0.5",
+    "fuse.js": "6.6.2",
+    "js-cookie": "3.0.1",
+    "js-md5": "^0.7.3",
+    "jsencrypt": "3.3.1",
+    "nprogress": "0.2.0",
+    "pinia": "2.0.22",
+    "socket.io-client": "4.5.2",
+    "spark-md5": "^3.0.2",
+    "terser": "^5.17.6",
+    "vue": "3.2.45",
+    "vue-cropper": "1.0.3",
+    "vue-router": "4.1.4",
+    "vue-websocket": "1.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "@vitejs/plugin-vue": "3.1.0",
+    "@vue/compiler-sfc": "3.2.45",
+    "sass": "1.56.1",
+    "unplugin-auto-import": "0.11.4",
+    "vite": "3.2.3",
+    "vite-plugin-compression": "0.5.1",
+    "vite-plugin-svg-icons": "2.0.1",
+    "vite-plugin-vue-setup-extend": "0.4.0"
+  }
+}
